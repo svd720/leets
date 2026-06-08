@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool checkRecord(string s) {
-        int a=0;int l=1;string late="";
+        int a=0;string late="";
         for(int i=0;i<s.size();i++)
         {
             if(s[i]=='A')
